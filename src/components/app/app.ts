@@ -10,7 +10,7 @@ class App {
     }
     run() {
         const headerHTML = this.header.render();
-        this.container.append(headerHTML)
+        // this.container.append(headerHTML)
     }
 }
 export default App;
