@@ -1,0 +1,35 @@
+{
+  "name": "my-christmas-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "data.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx webpack serve",
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frodiBjorn/my-christmas-task.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frodiBjorn/my-christmas-task/issues"
+  },
+  "homepage": "https://github.com/frodiBjorn/my-christmas-task#readme",
+  "devDependencies": {
+    "css-loader": "^6.5.1",
+    "typescript": "^4.5.4",
+    "webpack-cli": "^4.9.1"
+  },
+  "dependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "ts-loader": "^9.2.6",
+    "webpack": "^5.65.0",
+    "webpack-dev-server": "^4.6.0"
+  }
+}
